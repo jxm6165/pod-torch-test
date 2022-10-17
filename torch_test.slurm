@@ -12,4 +12,4 @@
 
 module purge
 module load singularity
-singularity exec --rocm ~/containers/rocm-torch.sif python3 mnist_classify.py --epochs=3
+singularity exec --rocm $HOME/containers/rocm-torch.sif python3 mnist_classify.py --epochs=3
